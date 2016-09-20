@@ -9,7 +9,7 @@ repo init -u git://github.com/Cardinal-AOSP/manifest.git -b n7
 ```
 Then to sync up:
 ````bash
-repo sync
+repo sync -c --force-sync -f --no-tags
 ```
 Finally to build:
 ````bash
