@@ -9,5 +9,5 @@ repo init -u git://github.com/Cardinal-AOSP/manifest.git -b crd6.0
 ```
 Then to sync up:
 ````bash
-repo sync
+repo sync -c --force-sync -f --no-tags
 ```
